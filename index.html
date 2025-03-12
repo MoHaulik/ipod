@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digital iPod</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Three.js container (background) -->
+  <div id="threejs-container"></div>
+  
+  <!-- Audio player UI -->
+  <div id="player">
+    <h1 id="track-title">My Audiobook / Music Track</h1>
+    <audio id="audio" controls></audio>
+    <div id="controls">
+      <button id="fullscreen-btn">Toggle Fullscreen</button>
+    </div>
+  </div>
+  
+  <!-- Include Three.js from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <!-- Load main script as a module -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>
